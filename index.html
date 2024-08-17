@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spaceinvaders.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+    <title>Space Invaders Game</title>
+</head>
+<body >
+    <div class="gamearea" >
+    <div class="score" >
+      Score: <span class="mainscore">0</span>
+    </div>
+    <div class="level">
+        Level: <span class="mainlevel">1</span>
+    </div>
+   <div class="life">
+    <div class="lifeword"> Life:</div>
+    <div class="hearts">
+    </div>
+   </div>
+    <img src="img/spaceship.png" alt="" style="display:none ;" id="spaceshipimg">
+    <canvas id="canvas"></canvas>
+</div>
+<div class="gameover">
+    <div class="endtext">Game Over </div>
+    <button  class="reset"> Reset</button>
+</div>
+<script src="elements.js"></script>   
+ <script src="spaceinvaders.js"></script>
+</body>
+</html>
